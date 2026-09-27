@@ -30,14 +30,13 @@
     "svg",
     "hiblob"
   ],
-  "homepage": "https://github.com/igu1/hiblob",
+  "homepage": "https://github.com/igu1/hiblob-npm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igu1/hiblob.git",
-    "directory": "npm/hiblob"
+    "url": "git+https://github.com/igu1/hiblob-npm.git"
   },
   "bugs": {
-    "url": "https://github.com/igu1/hiblob/issues"
+    "url": "https://github.com/igu1/hiblob-npm/issues"
   },
   "engines": {
     "node": ">=18"
