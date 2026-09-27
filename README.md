@@ -1,4 +1,4 @@
-# @hiblob/core
+# hiblob
 
 Deterministic geometric blob avatars from any string — the npm port of the
 Dart package [`hiblob`](https://pub.dev/packages/hiblob) (MIT).
@@ -18,13 +18,13 @@ renders the same hiblob on every platform and every engine, byte for byte.
 ## Install
 
 ```sh
-npm i @hiblob/core
+npm i hiblob
 ```
 
 ## Usage
 
 ```ts
-import { resolve, svgFromName, motionAt, motionSeedsFor } from '@hiblob/core';
+import { resolve, svgFromName, motionAt, motionSeedsFor } from 'hiblob';
 
 // SVG document, ready for the browser / mail templates / README
 const svg = svgFromName('ada@example.com', { background: 'squircle' });
@@ -90,7 +90,7 @@ spec in the Dart repo for the render parity notes).
 the Dart `hiblob` package itself (snapshot, every silhouette × body size, all
 16 expressions, accessories on for every silhouette, backdrops, palette/hue/
 tone pins, raw un-normalized seeds). `test/goldens.test.ts` asserts this
-package reproduces each one byte for byte — so a `@hiblob/core` SVG and the
+package reproduces each one byte for byte — so a `hiblob` SVG and the
 Dart `svgOf` produce identical strings.
 
 The goldens are a checked-in fixture, not generated at build time. The

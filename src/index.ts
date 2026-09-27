@@ -1,5 +1,5 @@
 /**
- * `@hiblob/core` — the pure, dependency-free core of hiblob: deterministic
+ * `hiblob` — the pure, dependency-free core of hiblob: deterministic
  * geometric blob avatars from any string.
  *
  * A hiblob always stands for somebody — a user, a bot, a team, a repo — so
@@ -8,7 +8,7 @@
  * string always renders the same hiblob.
  *
  * ```ts
- * import { resolve, svgFromName, motionAt, motionSeedsFor } from '@hiblob/core';
+ * import { resolve, svgFromName, motionAt, motionSeedsFor } from 'hiblob';
  *
  * const figure = resolve('ada@example.com');
  * const svg = svgFromName('ada@example.com', { background: 'squircle' });
