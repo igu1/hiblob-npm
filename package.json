@@ -1,0 +1,51 @@
+{
+  "name": "@hiblob/core",
+  "version": "1.0.0",
+  "description": "Deterministic geometric blob avatars from any string. Zero-dependency core that generates and emits SVG — the npm port of the Dart `hiblob` package.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "vitest run",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [
+    "avatar",
+    "identicon",
+    "deterministic",
+    "generative-art",
+    "svg",
+    "hiblob"
+  ],
+  "homepage": "https://github.com/igu1/hiblob",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igu1/hiblob.git",
+    "directory": "npm/hiblob"
+  },
+  "bugs": {
+    "url": "https://github.com/igu1/hiblob/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
