@@ -1,6 +1,6 @@
 {
   "name": "hiblob",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deterministic geometric blob avatars from any string. Zero-dependency core that generates and emits SVG — the npm port of the Dart `hiblob` package.",
   "license": "MIT",
   "type": "module",

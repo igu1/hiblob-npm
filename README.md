@@ -3,6 +3,10 @@
 Deterministic geometric blob avatars from any string — the npm port of the
 Dart package [`hiblob`](https://pub.dev/packages/hiblob) (MIT).
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/igu1/hiblob-npm/main/assets/hero.png" alt="A hiblob avatar for the name ada@example.com — an organic pale blob wearing glasses on a squircle" width="280" />
+</p>
+
 Give it a username, an email, a display name, an id — any string — and it
 computes a complete blob figure: silhouette, palette (HSL + OKLCh), eyes,
 mouth, accessories, motion seeds, and a standalone SVG. The same string
@@ -83,6 +87,28 @@ A Flutter widget layer (static + animated, hover ramping) ships in the Dart
 package; the browser/canvas binding here is planned for a follow-up release
 (`motionAt` already gives you everything a renderer needs — see the port
 spec in the Dart repo for the render parity notes).
+
+## Samples
+
+Every name draws a different creature — 48 usernames, freshly generated with
+the published package:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/igu1/hiblob-npm/main/assets/mosaic.png" alt="A wall of 48 hiblob avatars, each a distinct silhouette, palette, face, and accessory mix" width="720" />
+</p>
+
+All 16 expressions on one name:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/igu1/hiblob-npm/main/assets/expressions.png" alt="The 16 hiblob expressions — idle, happy, sad, mad, surprised, wink, sleepy, smug, unsure, scared, love, shy, sick, thinking, grin, frown" width="720" />
+</p>
+
+And the 12-silhouette roster with every accessory pinned on, showing the
+fitted brow cap hugging each shape:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/igu1/hiblob-npm/main/assets/silhouettes.png" alt="The 12 hiblob silhouettes — round, organic, boxy, nub, capsule, hexagon, triangle, droplet, cloud, gem, pillow, sun — each with the fitted brow cap, glasses, blush and antennae" width="480" />
+</p>
 
 ## Dart parity
 
